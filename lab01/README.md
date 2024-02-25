@@ -34,5 +34,7 @@
 * Veritabanı kayıtlarını görüntülemeyi deneyiniz.
 * Veritabanı şemasını ve tablolar arasındaki bağlantıları görüntüleyip yorumlayınız.
 
-** Sonraki uygulamalarımızda bu veritabanındaki kodları kendimiz yazabiliyor olacağız. Bir sonraki uygulama dersine kadar gerekli yazılımları bilgisayarlarınıza yükleyiniz.
-** Hata alırsanız yardım isteyebilirsiniz. Yardım için lütfen dersimizin Telegram grubunu veya e-posta yolunu tercih ediniz.
+---
+
+* Sonraki uygulamalarımızda bu veritabanındaki kodları kendimiz yazabiliyor olacağız. Bir sonraki uygulama dersine kadar gerekli yazılımları bilgisayarlarınıza yükleyiniz.
+* Hata alırsanız yardım isteyebilirsiniz. Yardım için lütfen dersimizin Telegram grubunu veya e-posta yolunu tercih ediniz.
