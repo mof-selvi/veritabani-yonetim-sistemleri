@@ -11,8 +11,8 @@
   
   Dikkat
   
-  > Eğer sayfayı görüntüleyemiyorsanız Apache portunuzu XAMPP programından kontrol ediniz. 80 haricinde bir port görüyorsanız o portu adresteki localhost ifadesinden sonra ":" kullanarak belirtmelisiniz. \
-  > Örneğin, portunuz 8080 ise: [http://localhost:8080/phpmyadmin](http://localhost:8080/phpmyadmin) \
+  > * Eğer sayfayı görüntüleyemiyorsanız Apache portunuzu XAMPP programından kontrol ediniz. 80 haricinde bir port görüyorsanız o portu adresteki localhost ifadesinden sonra ":" kullanarak belirtmelisiniz. \
+  > * Örneğin, portunuz 8080 ise: [http://localhost:8080/phpmyadmin](http://localhost:8080/phpmyadmin) \
   > 80 portunu kullanan başka bir servis olduğunda ya o servisi durdurmak ya da Apache için farklı bir port kullanmak gerekir. \
   > Bu gibi durumlarda XAMPP içerisinde Config > Apache (httpd.conf) ayarlarına giderek "Listen" ile başlayan satırı bulup boş bir port numarası giriniz.
   
