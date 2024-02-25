@@ -17,7 +17,9 @@
   > XAMPP içerisinde Config > my.ini seçeneğinden MySQL ayar dosyasını açınız.
   > "port=3306" şeklinde olan satırları uygun bir port numarası ile düzeltip dosyayı kaydederek kapatınız.
   > MySQL'i yeniden çalıştırmayı denediğinizde, port boşsa, servis sorunsuz bir şekilde açılacaktır.
+  
   Dikkat
+  
   > MySQL'in varsayılan portunu değiştirirseniz bunu PhpMyAdmin ayar dosyasında da belirtmeniz gerekebilir.
   > XAMPP/phpMyAdmin/config.inc.php dosyasını açınız ve
   > $cfg['Servers'][$i]['host'] = '127.0.0.1';
