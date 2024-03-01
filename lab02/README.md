@@ -13,6 +13,20 @@ CREATE TABLE Persons (
 > Tablo ve sütun isimleri için snake case, pascal case veya camel case kullanılabilir.
 > Yukarıdaki tabloda "Persons" tablo ismi; PersonID, LastName, FirstName, Address ve City ise bu tabloda bulunacak sütunların isimleridir.
 
+Bazı tablo özellikleri sütunları belirten parantez kapandıktan sonra verilebilir.
+Örneğin InnoDB motorunun kullanılmasını, varsayılan karakter setini ve varsayılan karşılaştırma biçimini özellikle belirtmek için;
+```
+CREATE TABLE Persons (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 DEFAULT COLLATE utf8mb4_general_ci;
+```
+> Veritabanında kullanılan motorların birbirleri arasındaki farkları araştırmak isteyenler için çeşitli [kaynaklar](https://blog.devart.com/myisam-vs-innodb.html) bulunmaktadır.
+> Derslerimize InnoDB ile devam edilecektir. Bu motoru her CREATE TABLE kodumuzda özellikle belirtmemiz gerek yoktur. MySQL'de varsayılan motor InnoDB'dir.
+
 - # MySQL'de Veri Türleri
 SQL'de genel olarak 3 veri türü kategorisi bulunmaktadır: metin (string), sayısal (numeric) ve tarih-zaman (date-time).
 
@@ -59,11 +73,11 @@ SQL'de genel olarak 3 veri türü kategorisi bulunmaktadır: metin (string), say
 
 | Veri Tipi Türleri           | Açıklama |
 |---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DATE           | Bir tarih. Biçim: YYYY-AA-GG. Desteklenen aralık, '1000-01-01' ile '9999-12-31' arasındadır.                                                                                                                                                                                                                                                                                                          |
+| DATE           | Bir tarih. Biçim: YYYY-AA-GG. Desteklenen aralık, '1000-01-01' ile '9999-12-31' arasındadır.  |
 | DATETIME(fsp)  | Tarih ve saat kombinasyonu. Biçim: YYYY-AA-GG ss:dd:ss. Desteklenen aralık, '1000-01-01 00:00:00' ile '9999-12-31 23:59:59' arasındadır. Otomatik başlatma ve güncellemeleri elde etmek için sütun tanımına DEFAULT ve ON UPDATE eklemek, mevcut tarih ve saat değerine otomatik başlatma ve güncelleme sağlar.                                                                                       |
 | TIMESTAMP(fsp) | Bir zaman damgası. TIMESTAMP değerleri, Unix epokasından ('1970-01-01 00:00:00' UTC) itibaren geçen saniye sayısı olarak depolanır. Biçim: YYYY-AA-GG ss:dd:ss. Desteklenen aralık, '1970-01-01 00:00:01' UTC ile '2038-01-09 03:14:07' UTC arasındadır. Otomatik başlatma ve güncellemeleri elde etmek için sütun tanımında DEFAULT CURRENT_TIMESTAMP ve ON UPDATE CURRENT_TIMESTAMP kullanılabilir. |
-| TIME(fsp)      | Bir zaman. Biçim: ss:dd:ss. Desteklenen aralık, '-838:59:59' ile '838:59:59' arasındadır.                                                                                                                                                                                                                                                                                                             |
-| YEAR           | Dört haneli bir yıl. Dört haneli biçimde izin verilen değerler: 1901 ila 2155 ve 0000. MySQL 8.0, iki haneli biçimde yılı desteklemez.                                                                                                                                                                                                                                                                |
+| TIME(fsp)      | Bir zaman. Biçim: ss:dd:ss. Desteklenen aralık, '-838:59:59' ile '838:59:59' arasındadır.      |
+| YEAR           | Dört haneli bir yıl. Dört haneli biçimde izin verilen değerler: 1901 ila 2155 ve 0000. MySQL 8.0, iki haneli biçimde yılı desteklemez.  |
 
 
 
@@ -71,3 +85,4 @@ SQL'de genel olarak 3 veri türü kategorisi bulunmaktadır: metin (string), say
 [Kaynak 2](https://dev.mysql.com/doc/refman/8.0/en/data-types.html)
 
 - ## Alıştırma #1
+Bir otomasyon sistemi düşününüz. Düşündüğünüz proje için gerekli en az 2 adet tabloyu oluşturan SQL kodunu, yukarıdaki veri türlerine dikkat ederek yazınız. Kodlarınızı PhpMyAdmin veya MySQL Workbench üzerinde çalıştırmayı deneyiniz.
