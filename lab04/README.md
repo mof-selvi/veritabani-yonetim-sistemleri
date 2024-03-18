@@ -166,9 +166,9 @@ INSERT INTO Products (ProductID, ProductName, SupplierID, CategoryID, Unit, Pric
 ---
 
 
-#ORDER BY
+# ORDER BY
 
-ORDER BY ifadesi, sonuç kümesini artan veya azalan sırada sıralamak için kullanılır.
+- ORDER BY ifadesi, sonuç kümesini artan veya azalan sırada sıralamak için kullanılır.
 
 `
 SELECT column1, column2, ... 
