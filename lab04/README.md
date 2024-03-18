@@ -83,9 +83,9 @@ WHERE CustomerID > 80;
 |    >=    |                           Büyük eşittir. Belirli bir değerden büyük veya eşit olanları seçmek için kullanılır.                           |
 |    <=    |                           Küçük eşittir. Belirli bir değerden küçük veya eşit olanları seçmek için kullanılır.                           |
 |    <>    | Eşit değil. Belirli bir değere sahip olmayanları seçmek için kullanılır. Not: Bazı SQL sürümlerinde bu operatör "!=" olarak yazılabilir. |
-|  BETWEEN |                                           Belirli bir aralıkta olanları seçmek için kullanılır.                                          |
-|   LIKE   |                                                Belirli bir deseni aramak için kullanılır.                                                |
-|    IN    |                                    Bir sütun için birden fazla olası değeri belirtmek için kullanılır.                                   |
+|  [BETWEEN](https://www.w3schools.com/mysql/mysql_between.asp) |                                           Belirli bir aralıkta olan nümerik veriye sahip satırları seçmek için kullanılır.                                          |
+|   [LIKE](https://www.w3schools.com/mysql/mysql_like.asp)   |                                                Belirli bir alfanümerik deseni aramak için kullanılır.                                                |
+|    [IN](https://www.w3schools.com/mysql/mysql_in.asp)    |                                    Bir sütun için birden fazla olası değeri belirtmek için kullanılır.                                   |
 
 
 ---
@@ -245,6 +245,14 @@ ORDER BY Country ASC, CustomerName DESC;
 
 - komutu Örnek 1'deki "Customers" tablosundaki tüm müşterileri, Country'e göre artan ve CustomerName sütununa göre azalan şekilde sıralayarak seçer.
 
+
+---
+
+
+# Alıştırma #1
+
+- `Products` tablosundan fiyatı [18, 20] aralığında olan ürünleri çekiniz.
+- `Customers` tablosundan ismi "B" harfi ile başlayan müşterileri çekiniz.
 
 ---
 
