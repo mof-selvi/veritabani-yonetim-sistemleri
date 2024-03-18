@@ -216,7 +216,7 @@ SELECT * FROM Products
 ORDER BY ProductName;
 ```
 
-## Alfabetik DESC:
+## Tersten Alfabetik Sırayla:
 - Tabloyu alfabetik olarak tersten sıralamak için DESC kullanılır.
 - Ürünleri ProductName’e göre ters sırada sıralamak için:
 
