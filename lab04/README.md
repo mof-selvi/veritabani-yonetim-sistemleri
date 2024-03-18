@@ -258,6 +258,7 @@ ORDER BY Country ASC, CustomerName DESC;
 
 # Tartışma #1
 - 1 milyon kayıt (record) içeren bir veritabanı tablosu düşününüz.
-- İşlemcimiz 1 milyon verilik bir diziyi 1 sn'de taramaktadır.
-- ***1 milyon verinin 1 sütuna göre sıralı bir şekilde çekilebilmesi için yaklaşık kaç saniye gerekir?***
+- İşlemcimiz 1 saniyede 1 milyon adet veri karşılaştırması yapabilmektedir.
+- Elimizdeki bir sıralama algoritmasının karmaşıklığı O(n*logn)'dir. Yani n*logn adet karşılaştırma sonucunda diziyi sıralayabilmektedir.
+- ***1 milyon verinin 1 sütuna göre sıralı bir şekilde çekilebilmesi için <u>yaklaşık</u> kaç saniye gerekir?***
 - ***Bu işlemi hızlandırabilmek için ne tavsiye edersiniz? Veritabanı motoru nasıl geliştirilebilir?***
