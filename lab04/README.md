@@ -260,5 +260,5 @@ ORDER BY Country ASC, CustomerName DESC;
 - 1 milyon kayıt (record) içeren bir veritabanı tablosu düşününüz.
 - İşlemcimiz 1 saniyede 1 milyon adet veri karşılaştırması yapabilmektedir.
 - Elimizdeki bir sıralama algoritmasının karmaşıklığı O(n*logn)'dir. Yani n*logn adet karşılaştırma sonucunda diziyi sıralayabilmektedir.
-- *1 milyon verinin 1 sütuna göre sıralı bir şekilde çekilebilmesi için ***yaklaşık*** kaç saniye gerekir?*
-- *Bu işlemi hızlandırabilmek için ne tavsiye edersiniz? Veritabanı motoru nasıl geliştirilebilir?*
+  - *1 milyon verinin 1 sütuna göre sıralı bir şekilde çekilebilmesi için ***yaklaşık*** kaç saniye gerekir?*
+  - *Bu işlemi hızlandırabilmek için ne tavsiye edersiniz? Veritabanı motoru nasıl geliştirilebilir?*
