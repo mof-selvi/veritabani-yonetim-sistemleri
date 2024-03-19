@@ -65,13 +65,13 @@ SELECT * FROM Customers;
 
 - Örnek tablo için:
 
-```
+```mysql
 SELECT * FROM Customers WHERE CustomerID=1;
 ```
 
 - sorgusu "Customers" tablosundan müşterileri seçerken, "CustomerID" alanının değeri 1 olanları getirir. Burada "CustomerID" alanı bir sayısal alan olduğu için tırnak işareti içine alınmamıştır. Çünkü SQL'de sayısal değerler tırnak işareti içine alınmaz. Ancak metinsel değerler (örneğin, müşteri isimleri gibi) tırnak işareti içinde belirtilir.
 
-```
+```mysql
 SELECT * FROM Customers
 WHERE CustomerID > 80;
 ```
@@ -112,7 +112,7 @@ ORDER BY column_name(s);
 
 - Örnek tablomuz için:
 
-```
+```mysql
 SELECT COUNT(CustomerID),Country
 FROM Customers
 GROUP BY Country;
@@ -121,7 +121,7 @@ GROUP BY Country;
 - sorgusu her ülkedeki müşteri sayısını listeler.
 
 
-```
+```mysql
 SELECT COUNT(CustomerID), Country
 FROM Customers
 GROUP BY Country
