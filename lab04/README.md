@@ -44,9 +44,15 @@ INSERT INTO Customers (CustomerID, CustomerName, ContactName, Address, City, Pos
 
 > Burada column1, column2, ... veri seçmek istediğiniz tablonun alan adlarıdır. table_name, içinden veri seçmek istediğiniz tablonun adını temsil eder.
 
-- Tüm sütunları seçmek için
+```mysql
+SELECT CustomerID, CustomerName FROM Customers;
+```
 
-`SELECT * FROM Customers;`
+- Tüm sütunları seçmek için:
+
+```mysql
+SELECT * FROM Customers;
+```
 
 ---
 
