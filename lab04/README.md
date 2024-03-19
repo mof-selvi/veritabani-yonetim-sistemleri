@@ -227,7 +227,7 @@ ORDER BY ProductName DESC;
 
 > MySQL'de `ORDER BY column DESC` yerine `ORDER BY -column` kullanımı alfanümerik veriler için de çalışmaktadır.
 
-## Çok sütunlu ORDER BY:
+## Çok Sütunlu ORDER BY:
 
 ```mysql
 SELECT * FROM Customers
@@ -236,7 +236,7 @@ ORDER BY Country, CustomerName;
 - komutu Örnek 1'deki "Customers" tablosundan tüm müşterileri seçer, ardından "Country" ve "CustomerName" sütunlarına göre sıralar. Bu, verilerin Country'ye göre sıralandığı ancak aynı Country'ye sahip satırlar varsa bu satırların kendi aralarında ise CustomerName'e göre sıralandığı anlamına gelir.
 - Yani öncelikle "Ülke" sıralaması yapılır, aynı ülkeye sahip olan müşteriler bir araya getirilir. Ardından, aynı ülkeye sahip müşteriler arasında ise "MüşteriAdı"na göre alfabetik sıralama yapılır. Bu sayede, müşteriler hem ülke hem de müşteri adına göre düzenlenmiş bir sonuç kümesi elde edilir.
 
-## Çok sütunlu sıralamada hem ASC hem DESC kullanımı:
+## Çok Sütunlu Sıralamada Hem ASC Hem DESC Kullanımı:
 
 ```mysql
 SELECT * FROM Customers
