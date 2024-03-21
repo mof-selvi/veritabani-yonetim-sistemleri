@@ -3,13 +3,15 @@
 # LIMIT
 - Bir SQL sorgusunun, `[belirlenmiş bir başlangıç noktasından itibaren]` belirli bir sayıdaki kayıtlar için gerçekleşmesini sağlar.
 
-`SELECT 
+```mysql
+SELECT 
     select_list
 FROM
     table_name
 WHERE
     condition
-LIMIT {[offset,] row_count | row_count OFFSET offset};`
+LIMIT {[offset,] row_count | row_count OFFSET offset};
+```
 
 > Not: daha ayrıntılı syntax yapısı için MySQL'in [Select Statements](https://dev.mysql.com/doc/refman/8.0/en/select.html) sayfasına bakınız.
 
