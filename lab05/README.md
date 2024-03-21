@@ -151,17 +151,20 @@ DROP TABLE Customers;
 
 ---
 
-# ALIŞTIRMA #1
+# Alıştırma #1
 
+- Customers tablosunu yukarıdaki kod ile tekrar oluşturunuz.
 - Ülkenin Mexico olduğu satırlarda müşteri ismini 'Around the Horn' olarak güncelleyin.
 
-# ALIŞTIRMA #2
+# Alıştırma #2
 
+- Customers tablosu üzerinden devam ediniz.
 - CustomerID'nin 1 olduğu satırlarda müşteri ismini 'Satyam' ve ülkeyi 'USA' olarak güncelleyin.
 
-# ALIŞTIRMA #3
+# Alıştırma #3
 
-- Aşağıda gösterildiği gibi Çalışanın id, ad, e-posta ve departman olmak üzere kişisel ayrıntılarını içeren gfg_employees adında sql  komutlarını kullanarak bir tablo oluşturalım.
+- Bu alıştırma içinse yeni bir tablo oluşturacağız.
+- Aşağıda gösterildiği gibi çalışanın id, ad, e-posta ve departman bilgilerini içeren gfg_employees adındaki bir tabloyu sql komutları ile oluşturalım.
 
 ![image](https://github.com/mof-selvi/veritabani-yonetim-sistemleri/assets/58203457/e027dd26-0960-4682-97c2-75e860cbdd4f)
 
@@ -182,9 +185,13 @@ INSERT INTO gfg_employee (id, name, email, department) VALUES
 (7, 'Naruto', 'uzumaki@konoha.com', 'Development');
 ```
 
+## Alıştırma #3.1
 - Rithvik isimli kayıtları siliniz.
 
+## Alıştırma #3.2
 - Departmanın "Development" olduğu satırları siliniz.
 
+## Alıştırma #3.3
 - Tablodaki tüm girişleri siliniz.
+
 
