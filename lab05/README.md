@@ -1,5 +1,35 @@
 # LAB-05
 
+# LIMIT
+- Bir SQL sorgusunun, `[belirlenmiş bir başlangıç noktasından itibaren]` belirli bir sayıdaki kayıtlar için gerçekleşmesini sağlar.
+
+`SELECT 
+    select_list
+FROM
+    table_name
+WHERE
+    condition
+LIMIT {[offset,] row_count | row_count OFFSET offset};`
+
+> Not: daha ayrıntılı syntax yapısı için MySQL'in [Select Statements](https://dev.mysql.com/doc/refman/8.0/en/select.html) sayfasına bakınız.
+
+- `offset` sayısı, sorgunun sol tarafından (SELECT'ten LIMIT'e kadar olan kısımdan) dönecek olan satırların baştan kaç tanesinin atlanacağını belirtir.
+- Dönecek kayıtları ilk satırdan itibaren almak istiyorsak `offset` değeri 0 olmalıdır veya bu değer hiç belirtilmeyebilir. Belirtilmezse, bu değer varsayılan olarak 0'dır. OFFSET ifadesinden sonra da belirtilebilir.
+- `row_count` sayısı, `offset` kadar satır atlandıktan sonra kaç adet satırın döndürüleceğini belirtir.
+
+
+![image](https://github.com/mof-selvi/veritabani-yonetim-sistemleri/assets/58203457/783681dc-15e2-41ed-ad9c-715c55e56bd9)
+
+
+## Tartışma #1
+- LIMIT kullanımı hangi durumlarda işimize yarayabilir?
+- LIMIT yerine WHERE kullanarak sınırlama yapamaz mıyız? Örneğin `WHERE ID>=11 AND ID<=20` ifadesi yeterli olmaz mıydı?
+- LIMIT'in işlevini tüm verileri aldıktan sonra kullandığımız programda da yerine getirebiliriz. Bunu SQL sunucusu tarafında yapmanın avantajları neler olabilir?
+
+
+---
+
+
 # UPDATE
 - UPDATE ifadesi bir tablodaki mevcut kayıtları değiştirmek için kullanılır.
 
