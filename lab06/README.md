@@ -68,6 +68,8 @@ call populate('VERİTABANI ADI','players',100000,'N');
 > Daha sonra bu `populate` isimli prosedürün çalıştırılmasıyla çok sayıda satırın veritabanına eklenmesi kolaylaşmış olur. \
 > 100000 kaydın eklenmesi yaklaşık 1-1.5 dk sürebilir.
 
+- Alternatif olarak [Drive](https://drive.google.com/file/d/1jLJw5aDnb7kcDGpztXBBO7AV1vIXLK2m/view?usp=sharing) bağlantısındaki hazır SQL dosyasını indirip içe aktarabilirsiniz.
+
 - a) İsminde `b` ve `t` karakterlerinin yanyana olduğu oyuncuların sayısını sorgulayınız. (Sorgunuzu ve hemen altına çalışma süresini saniye cinsinden not ediniz.) Bir sorgunun sonuç sayısını almak için sorguyu
 
 ```mysql
