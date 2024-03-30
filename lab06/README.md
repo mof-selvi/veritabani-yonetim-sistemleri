@@ -62,6 +62,8 @@ CREATE TABLE players (
 call populate('VERİTABANI ADI','players',100000,'N');
 ```
 
+- Yukarıdaki kodu en az 1 milyon kayıt oluşana kadar tekrar tekrar çalıştırınız.
+
 > Kopyalanan kodlar MySQL sunucusunun çalıştırabileceği bir prosedür (fonksiyon) oluşturur.
 > Daha sonra bu `populate` isimli prosedürün çalıştırılmasıyla çok sayıda satırın veritabanına eklenmesi kolaylaşmış olur. \
 > 100000 kaydın eklenmesi yaklaşık 1-1.5 dk sürebilir.
