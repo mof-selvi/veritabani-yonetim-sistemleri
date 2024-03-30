@@ -30,7 +30,7 @@
 > Sorgu komutunu ve süresini not almadığınız işlemleri tekrar doğru bir şekilde yapabilmek için veritabanını kaldırıp alıştırmaya baştan başlamanız gerekebilir. Dikkat etmek sizin sorumluluğunuzdadır.
 
 
-## Alıştırma #2
+# Alıştırma #2
 
 - 31 Ocak 1999 tarihinden sonra işe alınan ilk 150 kişiyi listeleyen SQL sorgusunu yazınız. (SQL sorgusunu not alınız.)
 - 31 Ocak 1999 tarihinden sonra işe alınan ikinci 150 kişiyi listeleyen SQL sorgusunu yazınız. (SQL sorgusunu not alınız.)
@@ -41,7 +41,7 @@
 > - '2024-12-31 16:00'
 > - '2024-12-31 16:35:47'
 
-## Alıştırma #3
+# Alıştırma #3
 
 - Aşağıdaki kod ile bir `players` tablosu oluşturunuz.
 
@@ -93,7 +93,7 @@ CREATE INDEX idx_SUTUN_ADI ON TABLO_ADI (SUTUN_ADI);
 
 
 
-## Gönderim
+# Gönderim
 
 Şu ana kadar notlarınız 6 adet SQL sorgusu, 4 adet çalışma süresi ve 2 kısa yorum paragrafı içeriyor olmalı. 
 
