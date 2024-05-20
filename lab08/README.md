@@ -54,6 +54,8 @@ INNER JOIN orders ON users.id = orders.user_id;
 
 > Hiçbir siparişi olmayan `david` adlı kullanıcının listelenmediğine dikkat ediniz.
 
+> Not: `JOIN` kullanabilmek için `foreign key`, `primary key` veya `index` tanımlamaları yapmak şart değildir. Fakat bu anahtarları tanımlamak performansı önemli ölçüde artırır ve veri bütünlüğünü sağlar. Çok sayıda veri ekleme ve silme durumlarının ardından kontrolümüz dışında bir yerlerde veri kalmış olmasını istemeyiz.
+
 ## Left/Right Join
 - Aşağıdaki sorguları sırasıyla deneyerek sonuçları gözlemleyiniz:
 ```sql
@@ -67,6 +69,12 @@ SELECT *
 FROM users
 RIGHT JOIN orders ON users.id = orders.user_id;
 ```
+
+> Not: `WHERE` kelimesinin ardından yazılabilen tüm mantıksal ifadeler `ON` kelimesinin ardından da yazılabilir.\
+> `ON` : tabloların nasıl birleştirileceğini belirten mantıksal ifadeler için,\
+> `WHERE` : sorgu sonuç listesine hangi satırların dahil edileceğini belirten mantıksal ifadeler için kullanılır.
+
+> `JOIN` kullanıldığında, `WHERE` kelimesi kullanılacaksa `ON` kelimelerinden sonra kullanılmalıdır.
 
 ## Sütun Seçimleri
 - Belirli sütunları seçmek için nokta notasyonu `tablo_adı.sütun_adı` şeklinde kullanılabilir.
@@ -95,7 +103,6 @@ FROM users AS U
 RIGHT JOIN orders AS O ON U.id = O.user_id;
 ```
 
-> Not: `JOIN` kullanabilmek için `foreign key`, `primary key` veya `index` tanımlamaları yapmak şart değildir. Fakat bu anahtarları tanımlamak performansı önemli ölçüde artırır ve veri bütünlüğünü sağlar. Çok sayıda veri ekleme ve silme durumlarının ardından kontrolümüz dışında bir yerlerde veri kalmış olmasını istemeyiz.
 
 ## M:N İlişkili Tablolarda Birleştirme
 
