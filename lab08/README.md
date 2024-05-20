@@ -182,16 +182,16 @@ JOIN courses AS C ON SC.course_id=C.course_id;
 
     **Beklenen çıktı**
 
-    | student_id | student_name | student_id | course_id | course_id | course_name |
-    |------------|--------------|------------|-----------|-----------|-------------|
-    |          1 | Ahmet Yılmaz |          1 |         1 |         1 | Matematik   |
-    |          1 | Ahmet Yılmaz |          1 |         4 |         4 | VTYS        |
-    |          2 | Ayşe Demir   |          2 |         2 |         2 | Fizik       |
-    |          3 | Mehmet Şahin |          3 |         3 |         3 | Kimya       |
-    |          3 | Mehmet Şahin |          3 |         4 |         4 | VTYS        |
-    |          4 | Zeynep Kaya  |       NULL |      NULL |      NULL | NULL        |
-    |          5 | Ali Veli     |       NULL |      NULL |      NULL | NULL        |
-    |       NULL | NULL         |       NULL |      NULL |         5 | Biyoloji    |
+    | student_id | student_name | course_id | course_name |
+    |------------|--------------|-----------|-------------|
+    |          1 | Ahmet Yılmaz |         1 | Matematik   |
+    |          1 | Ahmet Yılmaz |         4 | VTYS        |
+    |          2 | Ayşe Demir   |         2 | Fizik       |
+    |          3 | Mehmet Şahin |         3 | Kimya       |
+    |          3 | Mehmet Şahin |         4 | VTYS        |
+    |          4 | Zeynep Kaya  |      NULL | NULL        |
+    |          5 | Ali Veli     |      NULL | NULL        |
+    |       NULL | NULL         |         5 | Biyoloji    |
 
 > İpucu: önceki konulardan hatırlamanız gereken yerler bulunmaktadır.
 
