@@ -15,3 +15,5 @@ BTU Bilgisayar Mühendisliği Veritabanı Yönetim Sistemleri Uygulama Örnekler
 [LAB-06](lab06)
 
 [LAB-07](lab07)
+
+[LAB-08](lab08)
