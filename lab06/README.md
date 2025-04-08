@@ -17,7 +17,7 @@
 
   Linux için:
   ```powershell
-  /usr/bin/.../xampp/mysql/bin/mysql.exe -u root -p < employees.sql
+  /usr/bin/.../xampp/mysql/bin/mysql -u root -p < employees.sql
   ```
   
   - `INFO` ve `LOADING` kelimeleri içeren bir çıktı alıyorsanız ve henüz yeni komut satırı yazamıyorsanız buraya kadar doğru işlem yaptınız demektir. Yeni komut giriş satırı gelene kadar bekleyiniz.
