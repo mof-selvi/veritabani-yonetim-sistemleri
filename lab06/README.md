@@ -4,7 +4,7 @@
 
 # Alıştırma #1
 - [Employees Installation](https://dev.mysql.com/doc/employee/en/employees-installation.html) sayfasındaki yönergeleri izleyerek `employees` veritabanını kendi cihazınıza aktarınız.
-  - [datacharmer/test_db](datacharmer/test_db) reposunu indirip dosyaları bir klasöre çıkarınız.
+  - [datacharmer/test_db](https://github.com/datacharmer/test_db) reposunu indirip dosyaları bir klasöre çıkarınız.
   - `employees.sql` dosyasını gördüğünüz dizine giriniz.
   - Dosya gezgininin adres çubuğuna `cmd` yazın ya da `cmd` programını `Başlat` menüsünden açıp `cd` komutu ile SQL dosyalarını çıakrdığınız klasöre geçiş yapınız.
   - Cihazınızdaki MySQL kurulumunun dizinini bulun. Xampp kullanıyorsanız bu `.../xampp/mysql/bin/mysql.exe` şeklinde olacaktır.
