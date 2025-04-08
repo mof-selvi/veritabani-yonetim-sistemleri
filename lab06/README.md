@@ -11,12 +11,12 @@
   - `mysql.exe` programının tam yolunu (absolute path) komut istemi penceresine yapıştırarak aşağıdakine benzer şekilde aktarım komutunu yazınız.
   
   Windows için:
-  ```powershell
+  ```shell
   C:\...\xampp\mysql\bin\mysql.exe -u root -p < employees.sql
   ```
 
   Linux için:
-  ```powershell
+  ```shell
   /usr/bin/.../xampp/mysql/bin/mysql -u root -p < employees.sql
   ```
   
