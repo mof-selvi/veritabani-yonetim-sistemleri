@@ -281,9 +281,9 @@ Aşağıdaki alıştırmaları sıfırdan şablon kullanmadan tek başınıza ç
 
 ---
 
-### Teslim Edilecek Kodlar Checklist
+### Checklist
 
-Ekampüs'e yükleyeceğiniz `.sql` dosyasında toplam **7 adet SQL kod bloğu/komutu** yer almalıdır:
+Yazmanızın beklendiği toplam **7 adet SQL kod bloğu/komutu** vardır:
 
 1. **`before_product_insert`** tetikleyici kodu (Bölüm 2)
 2. **`after_order_insert`** tetikleyici kodu (Bölüm 3)
@@ -293,5 +293,6 @@ Ekampüs'e yükleyeceğiniz `.sql` dosyasında toplam **7 adet SQL kod bloğu/ko
 6. **Alıştırma 2** - Tetikleyicileri listeleme komutu
 7. **Alıştırma 2** - `before_product_insert` tetikleyicisini silme (drop) komutu
 
-> Tüm SQL kodlarınızı Ekampüs'te açılmış olan alana süresi içerisinde .sql formatında yükleyiniz.
+> SQL kodlarınızı test ettikten sonra çalıştığını gösteren PhpMyAdmin/MySQL Workbench ekran görüntülerini (tetikleyici öncesi ve sonrası ilgili tabloların satırlarını) Ekampüs'te açılmış olan alana süresi içerisinde .png formatında yükleyiniz.
+
 
